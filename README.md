@@ -55,7 +55,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ## Cuplikan Aplikasi
 
 ### Login
-![Halaman Login](public/video/login.png)
+![Halaman Login](public/video/loginn.png)
 
 ### Manajemen Antrian
 ![Halaman Manajemen Antrian](public/video/manajamen_antrian.png)
