@@ -58,15 +58,15 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ![Halaman Login](video/login.png)
 
 ### Manajemen Antrian
-![Halaman Manajemen Antrian](video/manajamen_antrian.png)
+![Halaman Manajemen Antrian](public/video/manajamen_antrian.png)
 
 ### Antrian Publik
-![Halaman Antrian Publik](video/public.png)
+![Halaman Antrian Publik](public/video/public.png)
 
 ## Demonstrasi Video
 <div align="center">
   <video width="640" height="360" controls>
-    <source src="video/video.mp4" type="video/mp4">
+    <source src="public/video/video.mp4" type="video/mp4">
     Browser Anda tidak mendukung tag video.
   </video>
 </div>
