@@ -63,8 +63,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ### Antrian Publik
 ![Halaman Antrian Publik](public/video/public.png)
 
-## Demonstrasi Video
-![Demonstrasi Aplikasi](public/video/video.mp4)
 
 ## Fitur Utama
 *   Login (admin)
