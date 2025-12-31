@@ -36,7 +36,7 @@
         </div>
 
         <button
-            class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition">
+            class="w-full  bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 active:bg-indigo-900 transition">
             Login
         </button>
     </form>
