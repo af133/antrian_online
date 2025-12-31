@@ -10,4 +10,5 @@ Route::post('/login',[AutentifikasiController::class, 'login'])->name('login.aut
 Route::middleware([Autentifikasi::class])->group(function () {
     Route::get('/dashboard', [QueueController::class, 'index'])->name('dashboard.index');
     Route::post('/logout', [AutentifikasiController::class, 'logout'])->name('logout');
+    Route::get('/queues', [QueueController::class, 'getQueues'])->name('queues.get');
 });

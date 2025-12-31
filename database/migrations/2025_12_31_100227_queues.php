@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('queues', function (Blueprint $table) {
             $table->id();
             $table->integer('queue_number');
-            $table->enum('status', ['waiting', 'called', 'done'])->default('waiting');
+            $table->enum('status', ['waiting', 'processing', 'done'])->default('waiting');
             $table->timestamps();
         });
 
