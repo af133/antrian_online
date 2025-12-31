@@ -56,7 +56,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 <!-- Menambahkan placeholder video untuk diisi pengguna -->
 <div align="center">
   <video width="640" height="360" controls>
-    <source src="public/videos/demo.mp4" type="video/mp4">
+    <source src="public/video/video.mp4" type="video/mp4">
   
   </video>
   
