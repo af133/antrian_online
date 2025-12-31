@@ -55,7 +55,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ## Cuplikan Aplikasi
 
 ### Login
-![Halaman Login](video/login.png)
+![Halaman Login](public/video/login.png)
 
 ### Manajemen Antrian
 ![Halaman Manajemen Antrian](public/video/manajamen_antrian.png)
@@ -64,12 +64,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ![Halaman Antrian Publik](public/video/public.png)
 
 ## Demonstrasi Video
-<div align="center">
-  <video width="640" height="360" controls>
-    <source src="public/video/video.mp4" type="video/mp4">
-    Browser Anda tidak mendukung tag video.
-  </video>
-</div>
+![Demonstrasi Aplikasi](public/video/video.mp4)
 
 ## Fitur Utama
 *   Login (admin)
