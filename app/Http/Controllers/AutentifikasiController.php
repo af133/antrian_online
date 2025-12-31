@@ -19,7 +19,7 @@ class AutentifikasiController extends Controller
         return back()->with('error', 'Email atau password salah');
         }
         Auth::guard('admin')->login($admin);
-        return redirect()->route('dashboard.index');
+        return redirect()->route('queue.index');
     }
     public function logout()
     {

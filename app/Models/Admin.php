@@ -11,5 +11,9 @@ class Admin extends  Authenticatable
         'email',
         'password',
     ];
+    public function queues()
+    {
+        return $this->hasMany(Queue::class);
+    }
 
 }

@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('queues', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('admin_id')->constrained('admins')->onDelete('cascade');
             $table->integer('queue_number');
             $table->enum('status', ['waiting', 'processing', 'done'])->default('waiting');
             $table->timestamps();
