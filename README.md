@@ -52,20 +52,29 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
     php artisan serve
     ```
 
+## Cuplikan Aplikasi
+
+### Login
+![Halaman Login](video/login.png)
+
+### Manajemen Antrian
+![Halaman Manajemen Antrian](video/manajamen_antrian.png)
+
+### Antrian Publik
+![Halaman Antrian Publik](video/public.png)
+
 ## Demonstrasi Video
-<!-- Menambahkan placeholder video untuk diisi pengguna -->
 <div align="center">
   <video width="640" height="360" controls>
-    <source src="public/video/video.mp4" type="video/mp4">
-  
+    <source src="video/video.mp4" type="video/mp4">
+    Browser Anda tidak mendukung tag video.
   </video>
-  
 </div>
 
 ## Fitur Utama
 *   Login (admin)
 *   Manajemen Antrian (admin)
-*   Melihat Nomor Antrian real-time (publc/pasien)
+*   Melihat Nomor Antrian real-time (public/pasien)
 
 ---
 Dikembangkan oleh [af133](https://github.com/af133).
