@@ -1,3 +1,3 @@
-<div>
-    <!-- It is quality rather than quantity that matters. - Lucius Annaeus Seneca -->
-</div>
+@extends('layouts.app')
+@section('content')
+@endsection

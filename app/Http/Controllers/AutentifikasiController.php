@@ -12,13 +12,18 @@ class AutentifikasiController extends Controller
     {
         return view('auth.login');
     }
-    public function authenticate(LoginRequest $request)
+    public function login(LoginRequest $request)
     {
         $admin = Admin::where('email', $request->email)->first();
          if (!$admin || !Hash::check($request->password, $admin->password)) {
         return back()->with('error', 'Email atau password salah');
         }
-        Auth::login($admin);
+        Auth::guard('admin')->login($admin);
         return redirect()->route('dashboard.index');
+    }
+    public function logout()
+    {
+        Auth::guard('admin')->logout();
+        return redirect()->route('login.index');
     }
 }
