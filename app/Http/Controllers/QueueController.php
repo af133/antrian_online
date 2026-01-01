@@ -25,7 +25,7 @@ class QueueController extends Controller
         if($current) $current->update(['status' => 'done']);
 
         $next = Queue::where('status', 'waiting')->orderBy('queue_number')->first();
-        if($next) $next->update(['status' => 'processing']);
+        if($next) $next->update(['status' => 'processing', 'served_by' => auth()->id()]);
 
         return response()->json(['success' => true]);
     }
@@ -49,7 +49,7 @@ class QueueController extends Controller
         $queue = Queue::create([
             'queue_number' => $number,
             'status' => 'waiting',
-            'admin_id' => auth()->guard('admin')->id(),
+
         ]);
 
         return response()->json(['success' => true, 'queue' => $queue]);
